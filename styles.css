@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    font-family: 'Montserrat';
+    line-height: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.navbar{
+    background-color: #1f2937;
+    color: antiquewhite;
+    height: auto;
+    padding-top: 20px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 30px;
+}
+
+.header{
+    background-color: #1f2937;
+    color: antiquewhite;
+    min-height: 400px;
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.header p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.header button{
+    background-color: #C19A6B;
+    color: antiquewhite;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.header img{
+    max-width: 500px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.content .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.content h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box{
+    flex: 1;
+    text-align: center;
+    border-color: #C19A6B;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 15px 20px;
+}
+
+.box img{
+    border: 3px solid  #C19A6B;
+    border-radius: 3px;
+}
+
+.content2{
+    height: 200px;
+    background-color: #EADDCA;
+    color: #1f2937;
+
+}
+
+.content2 .container{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 75px 110px;
+}
+
+.content2 .container .name{
+    text-align: end;
+    line-height: 2;
+}
+
+.content3 {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.content3 .container{
+    background-color: #C19A6B;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* max-width: 1000px; */
+}
+
+.content3 .container .hero{
+    padding: 0px 50px;
+    
+}
+
+button{
+    background-color: transparent;
+    color: antiquewhite;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1f2937;
+    color: antiquewhite;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
